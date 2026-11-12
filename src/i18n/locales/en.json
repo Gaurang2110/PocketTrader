@@ -1,0 +1,73 @@
+{
+  "appName": "Pocket Trader",
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "dismiss": "Dismiss"
+  },
+  "login": {
+    "title": "Pocket Trader",
+    "subtitle": "Sign in to access live markets and trade execution",
+    "emailLabel": "Email",
+    "emailPlaceholder": "trader@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signInButton": "Sign In",
+    "signingIn": "Signing in...",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "demoHint": "Demo password: {{password}}"
+  },
+  "accountBar": {
+    "accountLabel": "Account #{{login}}",
+    "balance": "Balance",
+    "equity": "Equity",
+    "logout": "Log out",
+    "burst": "Burst (3x)",
+    "expireToken": "Expire Token",
+    "burstSuccess": "Burst complete: 3 calls succeeded (total refreshes: {{refreshes}})",
+    "burstFailed": "Burst failed: {{message}}"
+  },
+  "marketWatch": {
+    "title": "Market Watch",
+    "searchPlaceholder": "Search symbol (e.g. EURUSD, XAUUSD)",
+    "bid": "Bid",
+    "ask": "Ask",
+    "spread": "Spread",
+    "emptySearch": "No symbols match \"{{query}}\"",
+    "loadingSymbols": "Loading market symbols...",
+    "symbolCount": "{{count}} symbols"
+  },
+  "placeOrder": {
+    "title": "Place Order",
+    "bid": "Bid",
+    "ask": "Ask",
+    "spread": "Spread",
+    "waitingQuote": "Waiting for live quote...",
+    "sideLabel": "Order Side",
+    "buy": "Buy",
+    "sell": "Sell",
+    "volumeLabel": "Volume (lots)",
+    "volumeRangeHint": "Min {{min}} - Max {{max}} (step {{step}})",
+    "stopLossLabel": "Stop Loss (optional)",
+    "stopLossPlaceholder": "Leave blank for no stop loss",
+    "stopLossBuyHint": "Buy stop loss must be below current Bid ({{bid}})",
+    "stopLossSellHint": "Sell stop loss must be above current Ask ({{ask}})",
+    "submitBuy": "Buy {{symbol}}",
+    "submitSell": "Sell {{symbol}}",
+    "submitting": "Submitting order...",
+    "orderSuccessTitle": "Order Executed",
+    "ticketLabel": "Ticket #{{ticket}}",
+    "openPriceLabel": "Open Price: {{price}}",
+    "openTimeLabel": "Time: {{time}}",
+    "errors": {
+      "noLiveQuote": "Live price is not available yet. Please wait a moment.",
+      "invalidVolume": "Volume must be between 0.01 and 100 lots in 0.01 steps.",
+      "invalidStopLossNumber": "Stop loss must be a positive number.",
+      "stopLossBuyTooHigh": "For a Buy order, stop loss must be below the live Bid ({{bid}}).",
+      "stopLossSellTooLow": "For a Sell order, stop loss must be above the live Ask ({{ask}})."
+    }
+  }
+}
+

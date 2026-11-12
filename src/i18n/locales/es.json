@@ -1,0 +1,73 @@
+{
+  "appName": "Pocket Trader",
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Reintentar",
+    "dismiss": "Cerrar"
+  },
+  "login": {
+    "title": "Pocket Trader",
+    "subtitle": "Inicia sesión para ver precios en vivo y operar",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "trader@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "signInButton": "Iniciar sesión",
+    "signingIn": "Iniciando sesión...",
+    "invalidEmail": "Ingresa un correo electrónico válido",
+    "passwordRequired": "La contraseña es obligatoria",
+    "demoHint": "Contraseña demo: {{password}}"
+  },
+  "accountBar": {
+    "accountLabel": "Cuenta #{{login}}",
+    "balance": "Saldo",
+    "equity": "Patrimonio",
+    "logout": "Salir",
+    "burst": "Ráfaga (3x)",
+    "expireToken": "Expirar token",
+    "burstSuccess": "Ráfaga completa: 3 llamadas exitosas (refrescos: {{refreshes}})",
+    "burstFailed": "Error en ráfaga: {{message}}"
+  },
+  "marketWatch": {
+    "title": "Mercado",
+    "searchPlaceholder": "Buscar símbolo (ej. EURUSD, XAUUSD)",
+    "bid": "Venta",
+    "ask": "Compra",
+    "spread": "Spread",
+    "emptySearch": "No hay símbolos para \"{{query}}\"",
+    "loadingSymbols": "Cargando símbolos...",
+    "symbolCount": "{{count}} símbolos"
+  },
+  "placeOrder": {
+    "title": "Nueva Orden",
+    "bid": "Venta",
+    "ask": "Compra",
+    "spread": "Spread",
+    "waitingQuote": "Esperando cotización en vivo...",
+    "sideLabel": "Tipo de orden",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "volumeLabel": "Volumen (lotes)",
+    "volumeRangeHint": "Mín {{min}} - Máx {{max}} (paso {{step}})",
+    "stopLossLabel": "Stop Loss (opcional)",
+    "stopLossPlaceholder": "Déjalo vacío si no usas stop loss",
+    "stopLossBuyHint": "En compra, el stop loss debe ser menor al Bid ({{bid}})",
+    "stopLossSellHint": "En venta, el stop loss debe ser mayor al Ask ({{ask}})",
+    "submitBuy": "Comprar {{symbol}}",
+    "submitSell": "Vender {{symbol}}",
+    "submitting": "Enviando orden...",
+    "orderSuccessTitle": "Orden Ejecutada",
+    "ticketLabel": "Ticket #{{ticket}}",
+    "openPriceLabel": "Precio de apertura: {{price}}",
+    "openTimeLabel": "Hora: {{time}}",
+    "errors": {
+      "noLiveQuote": "El precio en vivo aún no está disponible. Espera un momento.",
+      "invalidVolume": "El volumen debe estar entre 0.01 y 100 lotes en pasos de 0.01.",
+      "invalidStopLossNumber": "El stop loss debe ser un número positivo.",
+      "stopLossBuyTooHigh": "Para Comprar, el stop loss debe ser menor al Bid en vivo ({{bid}}).",
+      "stopLossSellTooLow": "Para Vender, el stop loss debe ser mayor al Ask en vivo ({{ask}})."
+    }
+  }
+}
+
